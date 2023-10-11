@@ -46,7 +46,7 @@ const EmailSection = ({ emailUser }) => {
 
           <div className='flex flex-col m-auto'>
             <input
-              className='border-2 p-3 font-bold rounded-lg w-96'
+              className='border-2 p-3 font-bold rounded-lg w-80'
               type="email"
               placeholder='email@company.com'
               value={email}
@@ -62,7 +62,7 @@ const EmailSection = ({ emailUser }) => {
             }
             <button
               onClick={handleSubmit}
-              className='font-bold text-[#fff] mt-4 w-96 p-3 border-2 rounded-lg bg-[#232742] hover:bg-[#3c4474] transition duration-100'
+              className='font-bold text-[#fff] mt-4 w-80 p-3 border-2 rounded-lg bg-[#232742] hover:bg-[#3c4474] transition duration-100'
             >
               Subscribe to monthly newsletter
             </button>

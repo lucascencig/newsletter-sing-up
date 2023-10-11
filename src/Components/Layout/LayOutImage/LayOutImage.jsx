@@ -6,9 +6,9 @@ import '../../../index.css';
 const LayOutImage = () => {
 
   return (
-    <div className='w-auto '>
+    <div className='w-96 flex justify-center items-center '>
       <img
-        className='w-auto  '
+        className='w-10/12 flex justify-center items-center  '
         src={svgIllustrationSingUpDesktop}
         alt=""
       />
